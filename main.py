@@ -10,3 +10,4 @@ r = requests.get(url)
 soup = BeautifulSoup(r.text,'lxml')
 print(soup)
 
+
