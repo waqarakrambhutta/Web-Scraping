@@ -9,5 +9,5 @@ soup= BeautifulSoup(r.text,'lxml')
 price = soup.find('h4',{'class':'pull-right price'})
 print(price.string)
 
-rating = soup.find('p',{'class':'pull-right'})
+rating = soup.find('p',class_ ='pull-right')
 print(rating.string)
