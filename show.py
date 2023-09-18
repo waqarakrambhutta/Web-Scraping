@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 url = "http://web.uaf.edu.pk/"
 r = requests.get(url)
 
+
 # print(r.status_code)
 soup = BeautifulSoup(r.text,'lxml')
 
